@@ -68,7 +68,7 @@ export default class CustomMentionEditor extends Component {
       entityMutability: 'IMMUTABLE',
       theme: mentionsStyles,
       positionSuggestions,
-      mentionPrefix: '@',
+      mentionPrefix: '[',
       supportWhitespace: true
     });
   }
